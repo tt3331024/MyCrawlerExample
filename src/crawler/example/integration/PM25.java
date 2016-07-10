@@ -14,7 +14,7 @@ import org.jsoup.nodes.Element;
  */
 public class PM25 {
 
-    static String elasticHost = "192.168.38.200" ;
+    static String elasticHost = "192.168.38.110" ;
     static String elasticPort = "9200" ;
     static String elasticIndex = "pm25";
     static String elasticIndexType = "data";
