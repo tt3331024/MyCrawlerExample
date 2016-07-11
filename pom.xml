@@ -25,18 +25,17 @@
           <version>1.8</version>
           <configuration>
             <programs>
-              <program>
-                <mainClass>crawler.example.past.YahooStock</mainClass>
-                <id>yahooStock</id>
-              </program>
-                
-              <program>
-                <mainClass>crawler.example.integration.PM25ElasticImport</mainClass>
-                <id>pm25ElasticImport</id>
-            </program>
+              <!--<program>-->
+                <!--<mainClass>crawler.example.past.YahooStock</mainClass>-->
+                <!--<id>yahooStock</id>-->
+              <!--</program>-->
+              <!--<program>-->
+                <!--<mainClass>crawler.example.integration.PM25ElasticImport</mainClass>-->
+                <!--<id>pm25ElasticImport</id>-->
+              <!--</program>-->
                 <program>
                     <mainClass>crawler.example.integration.PM25</mainClass>
-                    <id>PM25</id>
+                    <id>pm25</id>
                 </program>
             </programs>
           </configuration>
