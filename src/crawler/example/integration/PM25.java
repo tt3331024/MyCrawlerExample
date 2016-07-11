@@ -13,8 +13,8 @@ import org.jsoup.nodes.Element;
  * @author Abola Lee
  */
 public class PM25 {
-    
-    static String elasticHost = "192.168.38.50" ;
+
+    static String elasticHost = "localhost" ;
     static String elasticPort = "9200" ;
     static String elasticIndex = "pm25";
     static String elasticIndexType = "data";
